@@ -26,7 +26,6 @@ function CitiesProvider({ children }) {
     }
 
     fetchCities();
-    console.log(cities);
   }, []);
 
   async function getCity(id) {
